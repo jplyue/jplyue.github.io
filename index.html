@@ -1,32 +1,149 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-		---
-		layout: default
-		title: Hank Quinlan, Horrible Cop
-		---
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Yifei Gao</title>
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="style3.css">
+	<link rel="stylesheet" type="text/css" href="fullPage.css" />
+
+</head>
+<body>
+
+<div id="stage">
+	<!-- Scene 1-->
+	<div class="section " id="section0">
+		<div class="content">
+			<div class="wall top"><!-- wall is for bg color -->
+				<div class="wall-inner"><!-- inner for center content -->
+					<div id="castle">
+						<!--
+						<div class="top">
+							<img src="images/castle-top.png" alt="castle">
+						</div>
+						<div class="bottom">
+							<img src="images/castle-bottom.png" alt="castle">
+						</div>
+						-->
+						<img src="images/castle.png" alt="castle">
+					</div>	
+
+				</div>	
+			</div>
+			<div class="wall bottom">
+				<p>2014年9月 - 2015年8月 <br> 爱丁堡大学 The University of Edinburgh <br> 设计与数字媒体 Design and digital media</p>
+			</div>
+		</div>
+		
+		
+	</div>
+	<!-- Scene 2-->
+	<div class="section" id="section1">
+		<div class="content">
+			<div class="wall top">
+				<div class="wall-inner">
+					<img src="images/scene2.png" alt="UIC">
+				</div>
+			</div>
+			<div class="wall bottom">
+				<p> 2010年9月- 2014年7月 <br> 北师大-香港浸会联合国际学院 United International College <br>计算机科学与技术 Computer Science and Technology</p>
+			</div>
+		</div>
+	</div>
+	<!-- Scene 3-->
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+			<div class="content">
+				<a href="http://playground.eca.ed.ac.uk/~s1400411/DWD/2nd/code11/">
+					<img src="images/1.jpg" alt="SPORTS BUDDY">
+					<p>A website for people to find friends who love sports</p>
+					<p>运动社交网站：找到喜欢相同运动的伙伴 </p>
+				</a>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="content">
+				<a href="http://playground.eca.ed.ac.uk/~s1400411/digital/" target="_blank">
+					<img src="images/4.jpg" alt="MY SITE">
+					<p>Asset download website</p>
+					<p>展示图片集的网站</p>
+				</a>
+			</div>
+		</div>				
+		<div class="slide" id="slide3">
+			<div class="content">
+				<a href="http://playground.eca.ed.ac.uk/~s1400411/yf_huds/yf_huds.html" target="_blank">
+					<img src="images/2.jpg" alt="FLASH">
+					<p>A Flash animation about HUDs and GUIs</p>
+					<p>主题为HUDs&GUIs的FLASH</p>
+				</a>
+			</div>
+		</div>
+		<div class="slide" id="slide4">
+			<div class="content">
+				<a href="http://www.fastswf.com/F-S4qGw" target="_blank">
+					<img src="images/5.jpg" alt="FLASH">
+					<p>An Flash animation</p>
+					<p>FLASH 动画</p>
+				</a>
+			</div>
+		</div>
+		<div class="slide" id="slide5">
+			<div class="content">
+				
+					<img src="images/3.jpg" alt="MUSIC WEBSITE" target="_blank">
+					<p>Music website(It uses local area network so there is no online version.)</p>
+					<p>提供剪辑和拼接服务的音乐网站(无在线版本)</p>
+				
+			</div>
+		</div>	
+	</div>
+	<!-- Scene 4-->
+	<div class="section" id="section3">
+		<div class="content">
+			<div class="wall top">
+				<h2>Skills</h2>
+				<ul>
+					<li>Photoshop</li>
+					<li>Illustrator</li>
+					<li>Flash</li>
+					<li>Javascript(jQuery)</li>
+					<li>CSS</li>
+					<li>Bootstrap</li>
+					<li>Python</li>
+					<li>Django</li>
+				</ul>
+				
+			</div>
+			<div class="wall bottom">
+				<a class="button" href="cv.pdf" target="_top">我的简历</a>
+				<img src="images/girl.png" alt="girl" class="hidden">
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- character -->	
+<div class="character">
+	<img src="images/girl.png" alt="girl" class="girl">
+</div>		
+
+<script type="text/javascript" src="fullPage.js"></script>
+<script type="text/javascript">
+	fullpage.initialize('#stage', {
+		anchors: ['firstPage', 'secondPage', '3rdPage','4page'],
+		menu: '#menu',
+		css3:false,
+		scrollBar:true 
+	});
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" type="text/javascript"></script>
+<script>
+if (screen && screen.width > 600) {
+	document.write('<script type="text/javascript" src="style3.js"><\/script>');
+}
+</script>
+</body>
 </html>
